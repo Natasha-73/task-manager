@@ -1,9 +1,11 @@
 # Task Management System
 
 ## Description
-This manages tasks for any small business. The task management program allows multiple users to log onto the system, add, update and mark tasks as completed. The admin
-user has the added ability to get a display of overall task statistics. This program is useful to small business for tracking tasks carried out by their employees, which 
-streamlines work flow by structuring what employees have to do and by when and thus make a more efficient business.
+This task management program manages tasks for any small business. It allows multiple users to log onto the system, add, update and mark tasks as completed. The admin
+user has the added ability to get a display of overall task statistics. Other users can generate reports to see statistics on their specific tasks.
+
+This program is useful to small business for tracking tasks carried out by their employees, which streamlines work flow by structuring what employees have to do and by when and
+thus make for a more efficient business.
 
 ## Installation
 This program is written in Python 3.7.0
@@ -23,12 +25,12 @@ is twice is the same. The user is then moved to the main menu where they are ask
 
 ![Main menu](main_menu.JPG)
 
-Once any option is completed, the program returns to the main menu until 'e' for exit is entered. Within the 'v - view my tasks' the user is also given further options.
+Once any option is completed, the program returns to the main menu until 'e' for exit is entered. Within the 'vm - view my tasks' the user is also given further options.
 
 ![Sub menus](sub_menu.JPG)
 
-Under gr - Generate reports, the program generates two reports for the user task_overview.txt and user_userview.txt files. The contents of these can be displayed for the admin 
-user when they choose ds - 'Display Statistics'.
+Under 'gr - Generate Reports', the program generates two reports for the user task_overview.txt and user_userview.txt files. The contents of these can be displayed for the admin 
+user when they choose 'ds - Display Statistics'.
 
 ![Display of statistical reports](statistical_report.JPG)
 
